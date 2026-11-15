@@ -59250,7 +59250,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_dlkm_lib_modules_qti_battery_charger_ko
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor_dlkm/lib/modules/qti_battery_charger.ko
+LOCAL_SRC_FILES := compat/vendor_dlkm/lib/modules/qti_battery_charger.ko
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_DLKM)/lib/modules
 LOCAL_MODULE_STEM := qti_battery_charger.ko
 LOCAL_MODULE_SUFFIX :=
