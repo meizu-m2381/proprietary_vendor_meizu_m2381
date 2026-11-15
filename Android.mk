@@ -56595,54 +56595,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_odm_etc_selinux_precompiled_sepolicy
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/odm/etc/selinux/precompiled_sepolicy
-LOCAL_MODULE_PATH := $(TARGET_OUT_ODM)/etc/selinux
-LOCAL_MODULE_STEM := precompiled_sepolicy
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_odm_etc_selinux_precompiled_sepolicy_plat_sepolicy_and_mapping_sha256
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256
-LOCAL_MODULE_PATH := $(TARGET_OUT_ODM)/etc/selinux
-LOCAL_MODULE_STEM := precompiled_sepolicy.plat_sepolicy_and_mapping.sha256
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_odm_etc_selinux_precompiled_sepolicy_product_sepolicy_and_mapping_sha256
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/odm/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256
-LOCAL_MODULE_PATH := $(TARGET_OUT_ODM)/etc/selinux
-LOCAL_MODULE_STEM := precompiled_sepolicy.product_sepolicy_and_mapping.sha256
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_odm_etc_selinux_precompiled_sepolicy_system_ext_sepolicy_and_mapping_sha256
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256
-LOCAL_MODULE_PATH := $(TARGET_OUT_ODM)/etc/selinux
-LOCAL_MODULE_STEM := precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_dlkm_etc_NOTICE_xml_gz
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional

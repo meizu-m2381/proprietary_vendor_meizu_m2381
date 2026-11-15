@@ -4714,10 +4714,6 @@ PRODUCT_PACKAGES += \
     mz_odm_etc_fs_config_files \
     mz_odm_etc_group \
     mz_odm_etc_passwd \
-    mz_odm_etc_selinux_precompiled_sepolicy \
-    mz_odm_etc_selinux_precompiled_sepolicy_plat_sepolicy_and_mapping_sha256 \
-    mz_odm_etc_selinux_precompiled_sepolicy_product_sepolicy_and_mapping_sha256 \
-    mz_odm_etc_selinux_precompiled_sepolicy_system_ext_sepolicy_and_mapping_sha256 \
     mz_vendor_dlkm_etc_fs_config_dirs \
     mz_vendor_dlkm_etc_fs_config_files \
     mz_vendor_dlkm_lib_modules_adsp_loader_dlkm_ko \
