@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.mk text eol=lf
+
+# Fixed proprietary inputs: retrieve payloads with git lfs pull.
+/proprietary/** filter=lfs diff=lfs merge=lfs -text
+/original-inputs/** filter=lfs diff=lfs merge=lfs -text
+/compat/** filter=lfs diff=lfs merge=lfs -text
