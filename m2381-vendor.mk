@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_bin_hw_android_hardware_gatekeeper_1_0_service_qti \
     mz_vendor_bin_hw_android_hardware_gatekeeper_1_0_service_spu_qti \
     mz_vendor_bin_hw_android_hardware_gnss_aidl_service_qti \
-    mz_vendor_bin_hw_android_hardware_health_service_qti \
     mz_vendor_bin_hw_android_hardware_keymaster_4_0_service_qti \
     mz_vendor_bin_hw_android_hardware_keymaster_4_0_strongbox_service_qti \
     mz_vendor_bin_hw_android_hardware_media_omx_1_0_service \
@@ -605,7 +604,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_android_hardware_drm_1_1_service_wfdhdcp_rc \
     mz_vendor_etc_init_android_hardware_gatekeeper_1_0_service_qti_rc \
     mz_vendor_etc_init_android_hardware_gnss_aidl_service_qti_rc \
-    mz_vendor_etc_init_android_hardware_health_service_qti_rc \
     mz_vendor_etc_init_android_hardware_identity_service_qti_rc \
     mz_vendor_etc_init_android_hardware_media_omx_1_0_service_rc \
     mz_vendor_etc_init_android_hardware_power_service_rc \
@@ -1028,7 +1026,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_vintf_manifest_android_hardware_drm_service_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_gnss_aidl_service_qti_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_graphics_mapper_impl_qti_display_xml \
-    mz_vendor_etc_vintf_manifest_android_hardware_health_service_qti_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_radio_config_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_radio_data_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_radio_messaging_xml \

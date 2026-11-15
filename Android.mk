@@ -1239,18 +1239,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_health_service_qti
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.health-service.qti
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
-LOCAL_MODULE_STEM := android.hardware.health-service.qti
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_keymaster_4_0_service_qti
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
@@ -7251,18 +7239,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_android_hardware_health_service_qti_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.health-service.qti.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
-LOCAL_MODULE_STEM := android.hardware.health-service.qti.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_init_android_hardware_identity_service_qti_rc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -12321,18 +12297,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
 LOCAL_MODULE_STEM := android.hardware.graphics.mapper-impl-qti-display.xml
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_vintf_manifest_android_hardware_health_service_qti_xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.qti.xml
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
-LOCAL_MODULE_STEM := android.hardware.health-service.qti.xml
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
