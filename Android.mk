@@ -31062,7 +31062,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libcodec2_vndk_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libcodec2_vndk.so
+LOCAL_SRC_FILES := compat/vendor/lib/libcodec2_vndk.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libcodec2_vndk.so
 LOCAL_MODULE_SUFFIX :=
