@@ -5028,27 +5028,27 @@ PRODUCT_PACKAGES += \
 # 跨分区符号链接
 PRODUCT_PACKAGES += \
     mz_symlink_01 \
-    mz_symlink_04 \
-    mz_symlink_05 \
-    mz_symlink_06 \
-    mz_symlink_07 \
-    mz_symlink_08 \
-    mz_symlink_09 \
-    mz_symlink_10 \
-    mz_symlink_11 \
-    mz_symlink_12 \
-    mz_symlink_13 \
-    mz_symlink_14 \
-    mz_symlink_15 \
-    mz_symlink_16 \
-    mz_symlink_17 \
-    mz_symlink_18 \
-    mz_symlink_19 \
-    mz_symlink_20 \
-    mz_symlink_21 \
-    mz_symlink_22 \
-    mz_symlink_23 \
-    mz_symlink_24 \
-    mz_symlink_25 \
-    mz_symlink_26 \
-    mz_symlink_27
+    rfs_apq_gnss_readonly_firmware_symlink \
+    rfs_apq_gnss_readonly_vendor_firmware_symlink \
+    rfs_mdm_adsp_readonly_firmware_symlink \
+    rfs_mdm_adsp_readonly_vendor_firmware_symlink \
+    rfs_mdm_cdsp_readonly_firmware_symlink \
+    rfs_mdm_cdsp_readonly_vendor_firmware_symlink \
+    rfs_mdm_mpss_readonly_firmware_symlink \
+    rfs_mdm_mpss_readonly_vendor_firmware_symlink \
+    rfs_mdm_slpi_readonly_firmware_symlink \
+    rfs_mdm_slpi_readonly_vendor_firmware_symlink \
+    rfs_mdm_tn_readonly_firmware_symlink \
+    rfs_mdm_tn_readonly_vendor_firmware_symlink \
+    rfs_mdm_wpss_readonly_firmware_symlink \
+    rfs_mdm_wpss_readonly_vendor_firmware_symlink \
+    rfs_msm_adsp_readonly_firmware_symlink \
+    rfs_msm_adsp_readonly_vendor_firmware_symlink \
+    rfs_msm_cdsp_readonly_firmware_symlink \
+    rfs_msm_cdsp_readonly_vendor_firmware_symlink \
+    rfs_msm_mpss_readonly_firmware_symlink \
+    rfs_msm_mpss_readonly_vendor_firmware_symlink \
+    rfs_msm_slpi_readonly_firmware_symlink \
+    rfs_msm_slpi_readonly_vendor_firmware_symlink \
+    rfs_msm_wpss_readonly_firmware_symlink \
+    rfs_msm_wpss_readonly_vendor_firmware_symlink

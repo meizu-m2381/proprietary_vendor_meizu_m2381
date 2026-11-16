@@ -1314,7 +1314,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_sensors_service_multihal
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.sensors-service.multihal
+LOCAL_SRC_FILES := compat/vendor/bin/hw/android.hardware.sensors-service.multihal
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
 LOCAL_MODULE_STEM := android.hardware.sensors-service.multihal
 LOCAL_MODULE_SUFFIX :=
@@ -2742,7 +2742,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_qguard
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/qguard
+LOCAL_SRC_FILES := compat/vendor/bin/qguard
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
 LOCAL_MODULE_STEM := qguard
 LOCAL_MODULE_SUFFIX :=
@@ -29622,7 +29622,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_hw_vendor_rongcard_hardware_eid_rk_1_0_impl_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/hw/vendor.rongcard.hardware.eid_rk@1.0-impl.so
+LOCAL_SRC_FILES := compat/vendor/lib/hw/vendor.rongcard.hardware.eid_rk@1.0-impl.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/hw
 LOCAL_MODULE_STEM := vendor.rongcard.hardware.eid_rk@1.0-impl.so
 LOCAL_MODULE_SUFFIX :=
@@ -30426,7 +30426,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libavservices_minijail_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libavservices_minijail.so
+LOCAL_SRC_FILES := compat/vendor/lib/libavservices_minijail.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libavservices_minijail.so
 LOCAL_MODULE_SUFFIX :=
@@ -30570,7 +30570,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libboot_control_qti_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libboot_control_qti.so
+LOCAL_SRC_FILES := compat/vendor/lib/libboot_control_qti.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libboot_control_qti.so
 LOCAL_MODULE_SUFFIX :=
@@ -31038,7 +31038,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libcodec2_hidl_1_0_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libcodec2_hidl@1.0.so
+LOCAL_SRC_FILES := compat/vendor/lib/libcodec2_hidl@1.0.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libcodec2_hidl@1.0.so
 LOCAL_MODULE_SUFFIX :=
@@ -36198,7 +36198,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_nfc_nci_nqx_default_hw_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/nfc_nci.nqx.default.hw.so
+LOCAL_SRC_FILES := compat/vendor/lib/nfc_nci.nqx.default.hw.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := nfc_nci.nqx.default.hw.so
 LOCAL_MODULE_SUFFIX :=
@@ -45378,7 +45378,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_hw_vendor_rongcard_hardware_eid_rk_1_0_impl_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/hw/vendor.rongcard.hardware.eid_rk@1.0-impl.so
+LOCAL_SRC_FILES := compat/vendor/lib64/hw/vendor.rongcard.hardware.eid_rk@1.0-impl.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64/hw
 LOCAL_MODULE_STEM := vendor.rongcard.hardware.eid_rk@1.0-impl.so
 LOCAL_MODULE_SUFFIX :=
@@ -46470,7 +46470,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libavservices_minijail_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libavservices_minijail.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libavservices_minijail.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libavservices_minijail.so
 LOCAL_MODULE_SUFFIX :=
@@ -46626,7 +46626,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libboot_control_qti_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libboot_control_qti.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libboot_control_qti.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libboot_control_qti.so
 LOCAL_MODULE_SUFFIX :=
@@ -47130,7 +47130,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libcodec2_hidl_1_0_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libcodec2_hidl@1.0.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libcodec2_hidl@1.0.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libcodec2_hidl@1.0.so
 LOCAL_MODULE_SUFFIX :=
@@ -50382,7 +50382,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libqfp_service_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libqfp-service.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libqfp-service.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libqfp-service.so
 LOCAL_MODULE_SUFFIX :=
@@ -52854,7 +52854,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_nfc_nci_nqx_default_hw_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so
+LOCAL_SRC_FILES := compat/vendor/lib64/nfc_nci.nqx.default.hw.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := nfc_nci.nqx.default.hw.so
 LOCAL_MODULE_SUFFIX :=

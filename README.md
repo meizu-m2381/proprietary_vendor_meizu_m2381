@@ -37,3 +37,9 @@ git lfs ls-files | wc -l   # 5052
 
 Vendor binaries keep their original copyright and license terms. The Apache 2.0
 license of the device tree does not apply to anything under `proprietary/`.
+
+## 旧 libbase ABI 兼容
+
+compat/vendor/ 下 13 个独立 ELF 副本添加官方 libbase_shim.so 依赖，Android.mk 仅对这些模块选择兼容副本。原始 proprietary/ 不变，原始和修补后的摘要及符号记录在设备仓 configs/compat/libbase-fixups.json；设备 tools/configure_blob_compat.py 可以核验或重新生成。不要将 ELF 依赖表修补解释成完整硬件运行验证。
+
+RFS 的 24 个软链接由硬件公共仓现有模块提供，`m2381-vendor.mk` 引用上游模块，避免与设备仓重复声明安装目标。
