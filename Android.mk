@@ -50115,7 +50115,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libqcrilNr_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libqcrilNr.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libqcrilNr.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libqcrilNr.so
 LOCAL_MODULE_SUFFIX :=
@@ -51123,7 +51123,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libril_db_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libril-db.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libril-db.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libril-db.so
 LOCAL_MODULE_SUFFIX :=
@@ -60375,3 +60375,6 @@ include $(BUILD_PREBUILT)
 
 # M2381 stock system-side IMS components.
 include $(LOCAL_PATH)/ims-stack.mk
+
+# Stock M2381 RCS stack.
+include $(LOCAL_PATH)/rcs-stack.mk

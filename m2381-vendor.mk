@@ -5071,3 +5071,22 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += mz_ims_lib64_vendor_qti_diaghal_1_0_so
 
 PRODUCT_PACKAGES += mz_ims_lib64_vendor_qti_diaghal_V1_ndk_so
+
+# Stock M2381 RCS stack
+PRODUCT_PACKAGES += \
+    ImsRcsService \
+    mz_rcs_etc_permissions_vendor_qti_ims_rcsservice_xml \
+    mz_rcs_framework_vendor_qti_ims_factory_V2_0_java_jar \
+    mz_rcs_framework_vendor_qti_ims_connection_V1_0_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcsuce_V1_0_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcssip_V1_0_java_jar \
+    mz_rcs_framework_vendor_qti_ims_factory_V2_1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcsuce_V1_1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcssip_V1_1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_factory_V2_2_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcsuce_V1_2_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcssip_V1_2_java_jar \
+    mz_rcs_framework_vendor_qti_ims_factoryaidlservice_V1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcssipaidlservice_V1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_rcsuceaidlservice_V1_java_jar \
+    mz_rcs_framework_vendor_qti_ims_connectionaidlservice_V1_java_jar
