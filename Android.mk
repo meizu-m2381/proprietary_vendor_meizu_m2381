@@ -53670,7 +53670,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_vendor_libdpmframework_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/vendor.libdpmframework.so
+LOCAL_SRC_FILES := compat/vendor/lib64/vendor.libdpmframework.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := vendor.libdpmframework.so
 LOCAL_MODULE_SUFFIX :=
