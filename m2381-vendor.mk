@@ -3,19 +3,13 @@
 PRODUCT_SOONG_NAMESPACES += vendor/meizu/m2381
 
 PRODUCT_PACKAGES += \
-    mz_vendor_app_CACertService_CACertService_apk \
-    mz_vendor_app_CACertService_oat_arm64_CACertService_odex \
-    mz_vendor_app_CACertService_oat_arm64_CACertService_vdex \
-    mz_vendor_app_CneApp_CneApp_apk \
-    mz_vendor_app_CneApp_oat_arm64_CneApp_odex \
-    mz_vendor_app_CneApp_oat_arm64_CneApp_vdex \
+    CACertService \
+    CneApp \
     mz_vendor_app_ConnectionSecurityService_ConnectionSecurityService_apk \
     mz_vendor_app_ConnectionSecurityService_oat_arm64_ConnectionSecurityService_odex \
     mz_vendor_app_ConnectionSecurityService_oat_arm64_ConnectionSecurityService_vdex \
     mz_vendor_app_EidService_EidService_apk \
-    mz_vendor_app_IWlanService_IWlanService_apk \
-    mz_vendor_app_IWlanService_oat_arm64_IWlanService_odex \
-    mz_vendor_app_IWlanService_oat_arm64_IWlanService_vdex \
+    IWlanService \
     mz_vendor_app_QFingerprintService_QFingerprintService_apk \
     mz_vendor_app_QFingerprintService_oat_arm64_QFingerprintService_odex \
     mz_vendor_app_QFingerprintService_oat_arm64_QFingerprintService_vdex \
@@ -5052,3 +5046,28 @@ PRODUCT_PACKAGES += \
     rfs_msm_slpi_readonly_vendor_firmware_symlink \
     rfs_msm_wpss_readonly_firmware_symlink \
     rfs_msm_wpss_readonly_vendor_firmware_symlink
+
+# Stock M2381 MMTEL stack
+PRODUCT_PACKAGES += \
+    QtiTelephonyService \
+    ims \
+    qcrilmsgtunnel \
+    mz_ims_framework_qcrilhook_jar \
+    mz_ims_etc_permissions_qcrilhook_xml \
+    mz_ims_etc_permissions_telephony_system_ext_privapp_permissions_qti_xml \
+    mz_ims_lib64_libimsmedia_jni_so \
+    mz_ims_lib64_libimscamera_jni_so \
+    mz_ims_lib64_lib_imsvt_so \
+    mz_ims_lib64_lib_imsvtutils_so \
+    mz_ims_lib64_lib_imsvtextutils_so \
+    mz_ims_lib64_lib_imsvideocodec_so \
+    mz_ims_lib64_libdiag_system_so \
+    mz_ims_lib64_vendor_qti_imsrtpservice_3_0_so \
+    mz_ims_lib64_vendor_qti_imsrtpservice_3_1_so \
+    mz_ims_lib64_vendor_qti_ImsRtpService_V2_ndk_so \
+    mz_ims_jni_libimsmedia_jni_so \
+    mz_ims_jni_libimscamera_jni_so
+
+PRODUCT_PACKAGES += mz_ims_lib64_vendor_qti_diaghal_1_0_so
+
+PRODUCT_PACKAGES += mz_ims_lib64_vendor_qti_diaghal_V1_ndk_so
