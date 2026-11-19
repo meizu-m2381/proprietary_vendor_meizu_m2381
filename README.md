@@ -40,7 +40,7 @@ license of the device tree does not apply to anything under `proprietary/`.
 
 ## 旧 ABI 兼容
 
-`compat/vendor/` 下 15 个独立 ELF 副本由设备仓 `configs/compat/libbase-fixups.json` 固定原始/修补摘要与依赖。修补包含官方 libbase/libui/libhidlbase shim 及 32 位 codec2 helper 依赖替换，`Android.mk` 选择这些兼容副本，原始 `proprietary/` 保持不变。64 位 DPM 库复用官方 `libhidlbase_shim` 兼容 `Parcel::setData`。设备 `tools/configure_blob_compat.py` 可以核验或重新生成。ELF 依赖表修补不能代替硬件运行验证。
+`compat/vendor/` 下 18 个独立 ELF 副本由设备仓 `configs/compat/libbase-fixups.json` 固定原始/修补摘要与依赖。修补包含官方 libbase/libui/libhidlbase shim 及 32 位 codec2 helper 依赖替换，`Android.mk` 选择这些兼容副本，原始 `proprietary/` 保持不变。两种架构的 `libcodec2_vndk.so` 均依赖官方 `libui_shim`，避免完整包使用当前 libui 时丢失旧 GraphicBufferMapper 接口。64 位 DPM 库复用官方 `libhidlbase_shim` 兼容 `Parcel::setData`。设备 `tools/configure_blob_compat.py` 可以核验或重新生成。ELF 依赖表修补不能代替硬件运行验证。
 
 RFS 的 24 个软链接由硬件公共仓现有模块提供，`m2381-vendor.mk` 引用上游模块，避免与设备仓重复声明安装目标。
 
