@@ -1344,30 +1344,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_usb_gadget_1_1_service_qti
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.1-service-qti
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
-LOCAL_MODULE_STEM := android.hardware.usb.gadget@1.1-service-qti
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_usb_1_2_service_qti
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-qti
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
-LOCAL_MODULE_STEM := android.hardware.usb@1.2-service-qti
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_weaver_service_spu_qti
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
@@ -2166,18 +2142,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/bin/init.qcom.sh
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
 LOCAL_MODULE_STEM := init.qcom.sh
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_init_qcom_usb_sh
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/init.qcom.usb.sh
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
-LOCAL_MODULE_STEM := init.qcom.usb.sh
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -7320,30 +7284,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_android_hardware_usb_gadget_1_1_service_qti_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
-LOCAL_MODULE_STEM := android.hardware.usb.gadget@1.1-service-qti.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_android_hardware_usb_1_2_service_qti_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.usb@1.2-service-qti.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
-LOCAL_MODULE_STEM := android.hardware.usb@1.2-service-qti.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_init_cnd_rc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -7482,18 +7422,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/init/hw/init.qcom.rc
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init/hw
 LOCAL_MODULE_STEM := init.qcom.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_hw_init_qcom_usb_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/hw/init.qcom.usb.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init/hw
-LOCAL_MODULE_STEM := init.qcom.usb.rc
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -12204,18 +12132,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_usb_compositions_conf
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/usb_compositions.conf
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
-LOCAL_MODULE_STEM := usb_compositions.conf
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_vintf_compatibility_matrix_xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -12426,30 +12342,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
 LOCAL_MODULE_STEM := android.hardware.thermal@2.0-service.qti.xml
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_vintf_manifest_android_hardware_usb_gadget_1_1_service_xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
-LOCAL_MODULE_STEM := android.hardware.usb.gadget@1.1-service.xml
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_vintf_manifest_android_hardware_usb_1_2_service_xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
-LOCAL_MODULE_STEM := android.hardware.usb@1.2-service.xml
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true

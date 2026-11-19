@@ -1,4 +1,5 @@
-# 自动生成，勿手改
+# 固定厂商输入的产品选择，由设备适配维护。
+# USB 使用源码 AIDL HAL 及其 init；原厂 HIDL 服务、清单和重复 init 不安装。
 
 PRODUCT_SOONG_NAMESPACES += vendor/meizu/m2381
 
@@ -108,8 +109,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_bin_hw_android_hardware_security_keymint_service_spu_qti \
     mz_vendor_bin_hw_android_hardware_sensors_service_multihal \
     mz_vendor_bin_hw_android_hardware_thermal_2_0_service_qti_v2 \
-    mz_vendor_bin_hw_android_hardware_usb_gadget_1_1_service_qti \
-    mz_vendor_bin_hw_android_hardware_usb_1_2_service_qti \
     mz_vendor_bin_hw_android_hardware_weaver_service_spu_qti \
     mz_vendor_bin_hw_capabilityconfigstoretest \
     mz_vendor_bin_hw_pasrknob \
@@ -177,7 +176,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_bin_init_qcom_sdio_sh \
     mz_vendor_bin_init_qcom_sensors_sh \
     mz_vendor_bin_init_qcom_sh \
-    mz_vendor_bin_init_qcom_usb_sh \
     mz_vendor_bin_init_qti_display_boot_sh \
     mz_vendor_bin_init_qti_kernel_debug_kalama_sh \
     mz_vendor_bin_init_qti_kernel_debug_sh \
@@ -604,8 +602,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_android_hardware_security_keymint_service_qti_rc \
     mz_vendor_etc_init_android_hardware_sensors_service_multihal_rc \
     mz_vendor_etc_init_android_hardware_thermal_2_0_service_qti_v2_rc \
-    mz_vendor_etc_init_android_hardware_usb_gadget_1_1_service_qti_rc \
-    mz_vendor_etc_init_android_hardware_usb_1_2_service_qti_rc \
     mz_vendor_etc_init_cnd_rc \
     mz_vendor_etc_init_com_qualcomm_qti_wifidisplayhal_1_0_service_rc \
     mz_vendor_etc_init_dataadpl_rc \
@@ -618,7 +614,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_fix_1347671_rc \
     mz_vendor_etc_init_hw_init_qcom_factory_rc \
     mz_vendor_etc_init_hw_init_qcom_rc \
-    mz_vendor_etc_init_hw_init_qcom_usb_rc \
     mz_vendor_etc_init_hw_init_qti_kernel_rc \
     mz_vendor_etc_init_hw_init_qti_ufs_rc \
     mz_vendor_etc_init_hw_init_target_rc \
@@ -1011,7 +1006,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_thermal_super_conf \
     mz_vendor_etc_ueventd_rc \
     mz_vendor_etc_ufs_ffu_firmware_bin \
-    mz_vendor_etc_usb_compositions_conf \
     mz_vendor_etc_vintf_compatibility_matrix_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_atrace_1_0_service_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_boot_1_2_xml \
@@ -1030,8 +1024,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_vintf_manifest_android_hardware_security_keymint_service_qti_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_sensors_multihal_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_thermal_2_0_service_qti_xml \
-    mz_vendor_etc_vintf_manifest_android_hardware_usb_gadget_1_1_service_xml \
-    mz_vendor_etc_vintf_manifest_android_hardware_usb_1_2_service_xml \
     mz_vendor_etc_vintf_manifest_bluetooth_audio_xml \
     mz_vendor_etc_vintf_manifest_bttpi_saidl_xml \
     mz_vendor_etc_vintf_manifest_c2_manifest_vendor_xml \
