@@ -7368,18 +7368,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_hw_init_qcom_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/hw/init.qcom.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init/hw
-LOCAL_MODULE_STEM := init.qcom.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_init_hw_init_qti_kernel_rc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional

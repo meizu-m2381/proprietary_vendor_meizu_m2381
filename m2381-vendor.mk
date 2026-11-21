@@ -609,7 +609,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_feature_enabler_client_rc \
     mz_vendor_etc_init_fix_1347671_rc \
     mz_vendor_etc_init_hw_init_qcom_factory_rc \
-    mz_vendor_etc_init_hw_init_qcom_rc \
     mz_vendor_etc_init_hw_init_qti_kernel_rc \
     mz_vendor_etc_init_hw_init_qti_ufs_rc \
     mz_vendor_etc_init_hw_init_target_rc \
