@@ -92,7 +92,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_bin_hw_android_hardware_atrace_1_0_service \
     mz_vendor_bin_hw_android_hardware_audio_service_64 \
     mz_vendor_bin_hw_android_hardware_bluetooth_1_1_service_qti \
-    mz_vendor_bin_hw_android_hardware_boot_1_2_service \
     mz_vendor_bin_hw_android_hardware_camera_provider_2_4_external_service \
     mz_vendor_bin_hw_android_hardware_cas_1_2_service \
     mz_vendor_bin_hw_android_hardware_drm_service_clearkey \
@@ -104,7 +103,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_bin_hw_android_hardware_keymaster_4_0_service_qti \
     mz_vendor_bin_hw_android_hardware_keymaster_4_0_strongbox_service_qti \
     mz_vendor_bin_hw_android_hardware_media_omx_1_0_service \
-    mz_vendor_bin_hw_android_hardware_power_service \
     mz_vendor_bin_hw_android_hardware_security_keymint_service_qti \
     mz_vendor_bin_hw_android_hardware_security_keymint_service_spu_qti \
     mz_vendor_bin_hw_android_hardware_sensors_service_multihal \
@@ -588,7 +586,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_android_hardware_atrace_1_0_service_rc \
     mz_vendor_etc_init_android_hardware_audio_service_64_rc \
     mz_vendor_etc_init_android_hardware_bluetooth_1_1_service_qti_rc \
-    mz_vendor_etc_init_android_hardware_boot_1_2_service_rc \
     mz_vendor_etc_init_android_hardware_camera_provider_2_4_external_service_rc \
     mz_vendor_etc_init_android_hardware_cas_1_2_service_rc \
     mz_vendor_etc_init_android_hardware_drm_service_clearkey_rc \
@@ -598,7 +595,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_android_hardware_gnss_aidl_service_qti_rc \
     mz_vendor_etc_init_android_hardware_identity_service_qti_rc \
     mz_vendor_etc_init_android_hardware_media_omx_1_0_service_rc \
-    mz_vendor_etc_init_android_hardware_power_service_rc \
     mz_vendor_etc_init_android_hardware_security_keymint_service_qti_rc \
     mz_vendor_etc_init_android_hardware_sensors_service_multihal_rc \
     mz_vendor_etc_init_android_hardware_thermal_2_0_service_qti_v2_rc \
@@ -1008,7 +1004,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_ufs_ffu_firmware_bin \
     mz_vendor_etc_vintf_compatibility_matrix_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_atrace_1_0_service_xml \
-    mz_vendor_etc_vintf_manifest_android_hardware_boot_1_2_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_cas_1_2_service_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_drm_service_clearkey_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_drm_service_xml \

@@ -1140,18 +1140,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_boot_1_2_service
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.boot@1.2-service
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
-LOCAL_MODULE_STEM := android.hardware.boot@1.2-service
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_camera_provider_2_4_external_service
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
@@ -1278,18 +1266,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
 LOCAL_MODULE_STEM := android.hardware.media.omx@1.0-service
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_bin_hw_android_hardware_power_service
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/android.hardware.power-service
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
-LOCAL_MODULE_STEM := android.hardware.power-service
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -3099,7 +3075,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_slim_daemon
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/slim_daemon
+LOCAL_SRC_FILES := compat/vendor/bin/slim_daemon
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
 LOCAL_MODULE_STEM := slim_daemon
 LOCAL_MODULE_SUFFIX :=
@@ -7116,18 +7092,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_android_hardware_boot_1_2_service_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
-LOCAL_MODULE_STEM := android.hardware.boot@1.2-service.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_init_android_hardware_camera_provider_2_4_external_service_rc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -7230,18 +7194,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
 LOCAL_MODULE_STEM := android.hardware.media.omx@1.0-service.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_init_android_hardware_power_service_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/init/android.hardware.power-service.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/init
-LOCAL_MODULE_STEM := android.hardware.power-service.rc
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -12150,18 +12102,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
 LOCAL_MODULE_STEM := android.hardware.atrace@1.0-service.xml
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_vintf_manifest_android_hardware_boot_1_2_xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/vintf/manifest
-LOCAL_MODULE_STEM := android.hardware.boot@1.2.xml
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
