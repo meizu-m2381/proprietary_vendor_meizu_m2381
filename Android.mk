@@ -3195,7 +3195,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_ssgtzd
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/ssgtzd
+LOCAL_SRC_FILES := compat/vendor/bin/ssgtzd
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
 LOCAL_MODULE_STEM := ssgtzd
 LOCAL_MODULE_SUFFIX :=
