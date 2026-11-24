@@ -1767,7 +1767,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_vendor_qti_media_c2_1_0_service
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/vendor.qti.media.c2@1.0-service
+LOCAL_SRC_FILES := compat/vendor/bin/hw/vendor.qti.media.c2@1.0-service
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
 LOCAL_MODULE_STEM := vendor.qti.media.c2@1.0-service
 LOCAL_MODULE_SUFFIX :=
@@ -1779,7 +1779,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_bin_hw_vendor_qti_media_c2audio_1_0_service
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
+LOCAL_SRC_FILES := compat/vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin/hw
 LOCAL_MODULE_STEM := vendor.qti.media.c2audio@1.0-service
 LOCAL_MODULE_SUFFIX :=
@@ -10362,18 +10362,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/seccomp_policy
 LOCAL_MODULE_STEM := codec2.vendor.base-arm64.policy
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_seccomp_policy_codec2_vendor_ext_arm64_policy
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc/seccomp_policy
-LOCAL_MODULE_STEM := codec2.vendor.ext-arm64.policy
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -30420,18 +30408,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib_libc2filterplugin_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libc2filterplugin.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_STEM := libc2filterplugin.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libcacertclient_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -30846,42 +30822,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/lib/libcneqmiutils.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libcneqmiutils.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib_libcodec2_hidl_1_0_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := compat/vendor/lib/libcodec2_hidl@1.0.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_STEM := libcodec2_hidl@1.0.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib_libcodec2_hidl_plugin_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libcodec2_hidl_plugin.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_STEM := libcodec2_hidl_plugin.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib_libcodec2_vndk_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := compat/vendor/lib/libcodec2_vndk.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_STEM := libcodec2_vndk.so
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -33327,7 +33267,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib_libqcodec2_core_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib/libqcodec2_core.so
+LOCAL_SRC_FILES := compat/vendor/lib/libqcodec2_core.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_STEM := libqcodec2_core.so
 LOCAL_MODULE_SUFFIX :=
@@ -46488,18 +46428,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib64_libc2filterplugin_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libc2filterplugin.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
-LOCAL_MODULE_STEM := libc2filterplugin.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libcacertclient_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -46938,42 +46866,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/lib64/libcneqmiutils.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libcneqmiutils.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib64_libcodec2_hidl_1_0_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := compat/vendor/lib64/libcodec2_hidl@1.0.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
-LOCAL_MODULE_STEM := libcodec2_hidl@1.0.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib64_libcodec2_hidl_plugin_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libcodec2_hidl_plugin.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
-LOCAL_MODULE_STEM := libcodec2_hidl_plugin.so
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_lib64_libcodec2_vndk_so
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := compat/vendor/lib64/libcodec2_vndk.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
-LOCAL_MODULE_STEM := libcodec2_vndk.so
 LOCAL_MODULE_SUFFIX :=
 LOCAL_CHECK_ELF_FILES := false
 LOCAL_VENDOR_MODULE := true
@@ -49755,7 +49647,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_lib64_libqcodec2_core_so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libqcodec2_core.so
+LOCAL_SRC_FILES := compat/vendor/lib64/libqcodec2_core.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib64
 LOCAL_MODULE_STEM := libqcodec2_core.so
 LOCAL_MODULE_SUFFIX :=

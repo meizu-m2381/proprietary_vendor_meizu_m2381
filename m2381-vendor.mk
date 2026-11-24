@@ -859,7 +859,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_seccomp_policy_c2audio_vendor_base_arm_policy \
     mz_vendor_etc_seccomp_policy_c2audio_vendor_ext_arm_policy \
     mz_vendor_etc_seccomp_policy_codec2_vendor_base_arm64_policy \
-    mz_vendor_etc_seccomp_policy_codec2_vendor_ext_arm64_policy \
     mz_vendor_etc_seccomp_policy_gnss_2_0_base_policy \
     mz_vendor_etc_seccomp_policy_gnss_2_0_edgnss_daemon_policy \
     mz_vendor_etc_seccomp_policy_gnss_2_0_qsap_location_policy \
@@ -2530,7 +2529,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_lib_libboot_control_qti_so \
     mz_vendor_lib_libbt_hidlclient_so \
     mz_vendor_lib_libbtnv_so \
-    mz_vendor_lib_libc2filterplugin_so \
     mz_vendor_lib_libcacertclient_so \
     mz_vendor_lib_libcamera2ndk_vendor_so \
     mz_vendor_lib_libcamerapostproc_so \
@@ -2566,9 +2564,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_lib_libcneapiclient_so \
     mz_vendor_lib_libcneoplookup_so \
     mz_vendor_lib_libcneqmiutils_so \
-    mz_vendor_lib_libcodec2_hidl_1_0_so \
-    mz_vendor_lib_libcodec2_hidl_plugin_so \
-    mz_vendor_lib_libcodec2_vndk_so \
     mz_vendor_lib_libcom_qti_chinodeutils_so \
     mz_vendor_lib_libcommonchiutils_so \
     mz_vendor_lib_libconfigdb_so \
@@ -3869,7 +3864,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_lib64_libbt_hidlclient_so \
     mz_vendor_lib64_libbtnv_so \
     mz_vendor_lib64_libc_shared_so \
-    mz_vendor_lib64_libc2filterplugin_so \
     mz_vendor_lib64_libcacertclient_so \
     mz_vendor_lib64_libcamera2ndk_vendor_so \
     mz_vendor_lib64_libcamerapostproc_so \
@@ -3907,9 +3901,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_lib64_libcneapiclient_so \
     mz_vendor_lib64_libcneoplookup_so \
     mz_vendor_lib64_libcneqmiutils_so \
-    mz_vendor_lib64_libcodec2_hidl_1_0_so \
-    mz_vendor_lib64_libcodec2_hidl_plugin_so \
-    mz_vendor_lib64_libcodec2_vndk_so \
     mz_vendor_lib64_libcom_qti_chinodeutils_so \
     mz_vendor_lib64_libcommonchiutils_so \
     mz_vendor_lib64_libconfigdb_so \
