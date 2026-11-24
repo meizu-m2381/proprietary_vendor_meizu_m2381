@@ -713,7 +713,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_init_vppservice_rc \
     mz_vendor_etc_init_wfdvndservice_rc \
     mz_vendor_etc_init_qti_fm_sh \
-    mz_vendor_etc_izat_conf \
     mz_vendor_etc_libnfc_SN220_19_2MHZ_conf \
     mz_vendor_etc_libnfc_SN220_38_4MHZ_conf \
     mz_vendor_etc_libnfc_hal_st_519_mtp_conf \

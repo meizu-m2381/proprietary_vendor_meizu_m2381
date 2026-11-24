@@ -8616,18 +8616,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_izat_conf
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/izat.conf
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
-LOCAL_MODULE_STEM := izat.conf
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_libnfc_SN220_19_2MHZ_conf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
