@@ -12024,18 +12024,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := mz_vendor_etc_ueventd_rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/vendor/etc/ueventd.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
-LOCAL_MODULE_STEM := ueventd.rc
-LOCAL_MODULE_SUFFIX :=
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := mz_vendor_etc_ufs_ffu_firmware_bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional

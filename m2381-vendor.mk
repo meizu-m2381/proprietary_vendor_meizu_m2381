@@ -997,7 +997,6 @@ PRODUCT_PACKAGES += \
     mz_vendor_etc_thermal_monkey_conf \
     mz_vendor_etc_thermal_sgame_conf \
     mz_vendor_etc_thermal_super_conf \
-    mz_vendor_etc_ueventd_rc \
     mz_vendor_etc_ufs_ffu_firmware_bin \
     mz_vendor_etc_vintf_compatibility_matrix_xml \
     mz_vendor_etc_vintf_manifest_android_hardware_atrace_1_0_service_xml \
